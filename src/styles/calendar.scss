@@ -17,6 +17,7 @@
     font-family: Arial, sans-serif;
     font-size: 30px;
     cursor: pointer;
+    transition-duration: 500ms;
 
     &::before {
       display: block;
@@ -25,7 +26,6 @@
     &:hover {
       background-color: $day-color-hover;
       transform: translateY(-20px);
-      transition-duration: 500ms;
       cursor: pointer;
     }
   }
